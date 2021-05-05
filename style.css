@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&family=Roboto:wght@100;300;400;700&display=swap');
+
+
+body {
+  background-color: hsl(176, 17%, 81%);
+  font-family: 'Roboto', sans-serif;
+  color :#243038;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  color: #474B59;
+  font-size: 28px;
+  letter-spacing: 8px;
+  font-weight: 300;
+}
+
+h2{
+  color: #474B59;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #474B59;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+a{
+  color: #474B59;
+  text-decoration: none;
+  line-height: 18pt;
+}
+
+a:hover{
+  color: #502a2a;
+  font-size: larger;
+}
+
+
+.btn {
+  background-color: aquamarine;
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.profile{
+  border-radius: 20px;
+  padding: 5px;
+  width: 450px;
+}
+
+.profile:hover {
+  box-shadow: 0 0 0px 4px rgba(27, 41, 46, 0.5);
+}
+
+.hobby-pictures {
+  width: 125px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card {
+  display: inline-block;
+  list-style: none;
+  font-size: smaller;
+  margin: 25px 50px;
+  line-height: 18pt;
+}
+
+.social {
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px;
+}
+
+
+.card-container {
+  background-color:hsla(176, 25%, 75%, 0.712);
+  border-radius: 75px;  
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-color: beige;
+  }
+  .card {
+    display: block
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    display: block
+  }
+  .profile {
+    width: 100%;
+  }
+}
